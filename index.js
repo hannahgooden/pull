@@ -101,7 +101,7 @@ module.exports = async (app) => {
       return null
     }
     try {
-      app.scheduler.interval = config.rules.timeInterval
+      app.scheduler.interval = config.rules.pullInterval
       return new Pull(context.github, context.repo({ logger: app.log }), config)
     } catch (e) {
       app.log.warn(e, `[${context.payload.repository.full_name}] Pull initialization failed`)

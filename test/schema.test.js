@@ -77,7 +77,7 @@ describe('schema', () => {
           assignees: [],
           reviewers: [],
           conflictReviewers: [],
-          timeInterval: 3600
+          pullInterval: 3600
         }
       ],
       label: ':arrow_heading_down: pull',
