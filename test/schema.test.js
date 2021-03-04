@@ -76,7 +76,8 @@ describe('schema', () => {
           mergeUnstable: false,
           assignees: [],
           reviewers: [],
-          conflictReviewers: []
+          conflictReviewers: [],
+          timeInterval: 3600
         }
       ],
       label: ':arrow_heading_down: pull',
