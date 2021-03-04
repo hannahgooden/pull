@@ -33,4 +33,4 @@ jobs:
     - name: Push Docker Image to GitHub Package Registry
       run: |
         docker tag ghcr.io/${{ github.repository }}:latest docker.pkg.github.com/${{ github.repository }}/pull:latest
-        docker push docker.pkg.github.com/${{ github.repository }}/pull:latest
+        docker push docker.pkg.github.com/${{ github.repository }}/pull:latest 
